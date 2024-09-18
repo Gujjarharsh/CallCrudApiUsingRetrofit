@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".login.login_ui.LoginActivity"
+    android:padding="15dp"
+
+    >
+    <ImageView
+        android:id="@+id/idIVLogo"
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        android:layout_height="150dp"
+        android:src="@drawable/retrofit_logo"
+
+        />
+    <EditText
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/user_email"
+        android:id="@+id/userEmailEdt"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/userPasswordEdt"
+        android:hint="@string/password"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginBtn"
+        android:layout_gravity="center"
+        android:text="@string/login"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/don_t_have_account"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#0000EE"
+        android:id="@+id/signUpTv"
+        android:text="@string/register"
+        />
+
+
+
+
+</LinearLayout>

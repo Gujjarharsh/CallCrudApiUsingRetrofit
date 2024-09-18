@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">CRUDRetrofit</string>
+    <string name="user_name">Name</string>
+    <string name="enter_phone_number">Phone\n</string>
+    <string name="enter_user_email">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password">Password</string>
+    <string name="register">SignUp</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_account">Don\'t have Account?</string>
+    <string name="name">Name:</string>
+    <string name="email">Email:</string>
+    <string name="phone">Phone:\n</string>
+    <string name="address">Address:</string>
+    <string name="all_users">All Users</string>
+    <string name="details">Details</string>
+    <string name="delete">Delete</string>
+    <string name="create">Create</string>
+    <string name="welcome_harsh">Welcome,</string>
+    <string name="add_users">Add Users</string>
+    <string name="user_list">User List</string>
+    <string name="user_email">Email</string>
+    <string name="login_user" />
+    <string name="log_out">Log Out</string>
+</resources>
